@@ -5,7 +5,7 @@ For attending this workshop you should follow the following guidelines:
 
 # GitHub
 
-Create a (GitHub account)[https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github] and install the [GitHub dektop](https://desktop.github.com/)
+Create a [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) and install the [GitHub dektop](https://desktop.github.com/)
 
 ## Rtools43 for Windows
 
