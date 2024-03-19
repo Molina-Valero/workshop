@@ -3,11 +3,11 @@ R package development
 
 For attending this workshop you should follow the following guidelines:
 
-
+In this [link](https://posit.cloud/content/7829468) you will fine some of the workshop materials.
 
 ## GitHub
 
-Create a [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) and install the [GitHub dektop](https://desktop.github.com/)
+Create a [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) and install the [GitHub Desktop](https://desktop.github.com/)
 
 ## R
 
