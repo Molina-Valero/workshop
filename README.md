@@ -11,7 +11,7 @@ Create a [GitHub account](https://docs.github.com/en/get-started/start-your-jour
 
 ## R
 
-You should have both, [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/) already installed in your PC.
+You should have both [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/) already installed in your PC.
 
 ## Rtools43 for Windows
 
