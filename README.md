@@ -16,3 +16,5 @@ You should have both [R](https://cran.r-project.org/) and [RStudio](https://posi
 ## Rtools43 for Windows
 
 Please, also install [Rtools43](https://cran.r-project.org/bin/windows/Rtools/rtools43/rtools.html) in C:/.
+
+remotes::install_github("Molina-Valero/workshop", dependencies = TRUE)
