@@ -22,5 +22,55 @@ remotes::install_github("Molina-Valero/workshop", dependencies = TRUE)
 ## R code
 
 ```r
-kk
+#### Packages installation ####
+
+install.packages("devtools")
+install.packages("usethis")
+
+#### New package ####
+
+usethis::create_package("C:/workshop")
+
+
+#### Create R files ####
+
+usethis::use_r("linReg")
+
+# Load code
+
+devtools::load_all("C:/workshop")
+
+# Run code and edit...
+
+
+#### DESCRIPTION ####
+
+usethis::use_gpl3_license()
+
+usethis::use_package("plotly")
+
+
+#### NAMESPACE ####
+
+# Rebuild docs and NAMESPACE
+
+devtools::document()
+
+
+#### Data ####
+
+data <- data.frame(y = c(1:10), x = c(1:10))
+
+usethis::use_data(data)
+
+#### Check complete package ####
+
+devtools::check()
+
+
+#### GitHub ####
+
+# Download the R package from GitHub
+
+remotes::install_github("...", dependencies = TRUE)
 ````
