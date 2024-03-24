@@ -60,7 +60,7 @@ devtools::document()
 
 #### Data ####
 
-data <- data.frame(y = c(1:10), x = c(1:10))
+data <- data.frame(y = c(1:100) + rnorm(100), x = c(1:100) + rnorm(100))
 
 usethis::use_data(data)
 
