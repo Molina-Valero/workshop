@@ -25,6 +25,7 @@ remotes::install_github("Molina-Valero/workshop", dependencies = TRUE)
 #### Packages installation ####
 
 install.packages("devtools")
+install.packages("roxygen2")
 install.packages("usethis")
 
 #### New package ####
