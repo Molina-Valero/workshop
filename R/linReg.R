@@ -19,7 +19,7 @@ linReg <- function(data, save.result = NULL){
 
   # plotly::plot_ly(data, x = ~x, y = ~y, type = "scatter")
 
-  if (save.result){
+  if (!is.null(save.result)){
 
     out <- data.frame(beta_0 = coef(mod)[1],
                       beta_1 = coef(mod)[2],
@@ -28,6 +28,8 @@ linReg <- function(data, save.result = NULL){
     write.csv(out, "out.csv", row.names = FALSE)
 
   }
+
+  # res(mod)
 
 }
 
