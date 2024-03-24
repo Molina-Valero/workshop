@@ -69,6 +69,13 @@ usethis::use_data(data)
 devtools::check()
 
 
+#### BUILD ####
+
+devtools::build_manual(path = "C:/test")
+
+devtools::build(path = "C:/test")
+
+
 #### GitHub ####
 
 # Download the R package from GitHub
