@@ -79,7 +79,11 @@ devtools::build_manual(path = "C:/test")
 devtools::build(path = "C:/test")
 
 
-#### GitHub ####
+#### INSTALLATION ####
+
+# installed.packages("C:/test/...")
+
+# GitHub ----
 
 # Download the R package from GitHub
 
