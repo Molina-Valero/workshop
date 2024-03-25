@@ -44,11 +44,11 @@ devtools::load_all("C:/workshop")
 # Run code and edit...
 
 
-#### DESCRIPTION ####
+#### Data ####
 
-usethis::use_gpl3_license()
+data <- data.frame(y = c(1:100) + rnorm(100), x = c(1:100) + rnorm(100))
 
-usethis::use_package("plotly")
+usethis::use_data(data)
 
 
 #### NAMESPACE ####
@@ -58,11 +58,12 @@ usethis::use_package("plotly")
 devtools::document()
 
 
-#### Data ####
+#### DESCRIPTION ####
 
-data <- data.frame(y = c(1:100) + rnorm(100), x = c(1:100) + rnorm(100))
+usethis::use_gpl3_license()
 
-usethis::use_data(data)
+usethis::use_package("plotly")
+
 
 #### Check complete package ####
 
