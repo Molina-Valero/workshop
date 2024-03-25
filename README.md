@@ -37,9 +37,6 @@ usethis::create_package("C:/workshop")
 
 usethis::use_r("linReg")
 
-# Load code
-
-devtools::load_all("C:/workshop")
 
 # Run code and edit...
 
@@ -63,6 +60,11 @@ usethis::use_data(data)
 usethis::use_gpl3_license()
 
 usethis::use_package("plotly")
+
+
+#### Load code ####
+
+devtools::load_all("C:/workshop")
 
 
 #### Check complete package ####
