@@ -81,7 +81,8 @@ devtools::build(path = "C:/test")
 
 #### INSTALLATION ####
 
-# installed.packages("C:/test/...")
+installed.packages("C:/test/...")
+
 
 # GitHub ----
 
