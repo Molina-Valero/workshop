@@ -44,18 +44,18 @@ devtools::load_all("C:/workshop")
 # Run code and edit...
 
 
-#### Data ####
-
-data <- data.frame(y = c(1:100) + rnorm(100), x = c(1:100) + rnorm(100))
-
-usethis::use_data(data)
-
-
 #### NAMESPACE ####
 
 # Rebuild docs and NAMESPACE
 
 devtools::document()
+
+
+#### Data ####
+
+data <- data.frame(y = c(1:100) + rnorm(100), x = c(1:100) + rnorm(100))
+
+usethis::use_data(data)
 
 
 #### DESCRIPTION ####
