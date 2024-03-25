@@ -1,4 +1,4 @@
-# Workshop
+# Creation of R Packages as a Reserch Tool
 [R package development](https://cran.r-project.org/doc/manuals/R-exts.html#Creating-R-packages)
 
 For attending this workshop you should follow the following guidelines:
