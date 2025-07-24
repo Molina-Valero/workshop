@@ -6,7 +6,7 @@
 #' @param save.result Logical parameter indicating if results will be saved.
 #' @return Fit a linear regression.
 #' @export
-#' @importFrom plotly plot_ly kk
+#' @importFrom plotly plot_ly
 
 linReg <- function(data, save.result = NULL){
 
